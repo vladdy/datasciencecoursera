@@ -21,6 +21,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 4. Run "source([PATH_TO_]/run_analysis.R".
 
-5. You should get two dataframes initialized: "data" with the both training and test data sets combined and "tidy_data" with the average of each variable for each activity and each subject from "data".
+5. You should get two dataframes initialized: "data" with the both training and test data sets combined and cleaned from not important to us variables and "tidy_data" with the average of each variable for each activity and each subject from "data".
 
 See [CodeBook.md](CodeBook.md) for details. 
