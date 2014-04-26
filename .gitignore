@@ -1,3 +1,6 @@
 .Rproj.user
 .Rhistory
 .RData
+*.Rproj
+getdata-002-assessment/UCI HAR Dataset/
+getdata-002-assessment/data/
