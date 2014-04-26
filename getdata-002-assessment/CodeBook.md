@@ -16,6 +16,7 @@ The data frame "data" contains the mean, standard deviation, subject and activit
 
 The data frame "tidy_data" contains the following variables created as the result of transformations explained in the next section:
 
+```
  [1] "Subject"                "Activity"               "tBodyAcc-mean()-X"      "tBodyAcc-mean()-Y"     
  [5] "tBodyAcc-mean()-Z"      "tBodyAcc-std()-X"       "tBodyAcc-std()-Y"       "tBodyAcc-std()-Z"      
  [9] "tGravityAcc-mean()-X"   "tGravityAcc-mean()-Y"   "tGravityAcc-mean()-Z"   "tGravityAcc-std()-X"   
@@ -29,6 +30,7 @@ The data frame "tidy_data" contains the following variables created as the resul
 [41] "fBodyAccJerk-mean()-Z"  "fBodyAccJerk-std()-X"   "fBodyAccJerk-std()-Y"   "fBodyAccJerk-std()-Z"  
 [45] "fBodyGyro-mean()-X"     "fBodyGyro-mean()-Y"     "fBodyGyro-mean()-Z"     "fBodyGyro-std()-X"     
 [49] "fBodyGyro-std()-Y"      "fBodyGyro-std()-Z"
+```
 
 The variable "Subject" has 30 subjects from 1 to 30. The variable "activity" has 6 levels (LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS). The rest variables listed above are the the average of each mean() or std() measurement for each activity and each subject.
 
