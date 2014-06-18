@@ -18,7 +18,7 @@ shinyUI(fluidPage(
       selectizeInput("indepvar", h4("Independent variable(s):"),
                      multiple=TRUE, choices=names(Boston), selected="indus"),
       
-      div(HTML("Check out the <a href='https://github.com/vladdy/datasciencecoursera/devdataprod-002-project/shiny'>Github repo</a>"))
+      div(HTML("Check out the <a href='https://github.com/vladdy/datasciencecoursera/tree/master/devdataprod-002-project/shiny'>Github repo</a>"))
     ),
     
     # Showing output
